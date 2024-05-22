@@ -1,13 +1,13 @@
 [workspace]
 resolver = "2"
 members = [
-    "dsa",
-    "ecdsa",
-    "ed448",
+    #"dsa",
+    #"ecdsa",
+    #"ed448",
     "ed25519",
-    "lms",
-    "rfc6979",
-    "slh-dsa"
+    #"lms",
+    #"rfc6979",
+    #"slh-dsa"
 ]
 
 [profile.dev]
