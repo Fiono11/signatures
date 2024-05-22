@@ -35,8 +35,8 @@ rand_core = { version = "0.6", features = ["std"] }
 [features]
 default = ["std"]
 serde_bytes = ["serde", "dep:serde_bytes"]
-std = ["signature/std"]
-
+std = ["signature/std", "alloc"]
+alloc = []
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
